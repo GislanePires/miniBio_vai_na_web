@@ -18,7 +18,7 @@ main{
 }
 img{   
     width: 300px;
-    height: 329px;
+    height: 310px;
     border-radius: 100%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 8px 16px rgba(0, 0, 0, 0.3);
     border: 6px solid #84CC16;
@@ -31,6 +31,7 @@ h1, h2{
     color:#84CC16;
     padding:40px 0 20px 0;
     font-size: 36px;
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 span{
     font-style:italic;
@@ -40,6 +41,7 @@ p{
     gap:10px;
 }
 a{
+    display:flex;
     margin-top:10px;
     cursor: pointer;
     text-decoration: none;
@@ -54,6 +56,7 @@ a{
     background-color: #3B0764;
     margin-bottom: 15px;
     padding:10px 0 60px 120px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 ol{
     display:flex;
@@ -64,10 +67,16 @@ ol{
     color: #CBD5E1;
     font-size:24px;
 }
+li::marker{
+    color:#84CC16;
+}
 footer{
+    display:flex;
     background-color: #475569;
     margin-top: auto;
     padding:20px;
     color: #CBD5E1;
     font-size:14px;
+    align-items:center;
+    justify-content: center;
 }

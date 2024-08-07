@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: linear-gradient(to top, #1E293B, #19212D);
+  padding-top: 60px;
+}
+
+header {
+  padding-left: 120px;
+}
+
+main {
+  flex: 1;
+}
+
+img {
+  width: 300px;
+  height: 310px;
+  border-radius: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 8px 16px rgba(0, 0, 0, 0.3);
+  border: 6px solid #84CC16;
+}
+
+article {
+  margin: 10px 100px 60px 120px;
+  font-size: 24px;
+}
+
+h1, h2 {
+  color: #84CC16;
+  padding: 40px 0 20px 0;
+  font-size: 36px;
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+span {
+  font-style: italic;
+}
+
+p {
+  color: #CBD5E1;
+  gap: 10px;
+}
+
+a {
+  display: flex;
+  margin-top: 10px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.favoritos {
+  display: flex;
+  flex-direction: column;
+}
+
+.filmes, .musicas {
+  display: flex;
+  flex-direction: column;
+  background-color: #3B0764;
+  margin-bottom: 15px;
+  padding: 10px 0 60px 120px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+ol {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 25px;
+  margin-top: 10px;
+  color: #CBD5E1;
+  font-size: 24px;
+}
+
+li::marker {
+  color: #84CC16;
+}
+
+footer {
+  display: flex;
+  background-color: #475569;
+  margin-top: auto;
+  padding: 20px;
+  color: #CBD5E1;
+  font-size: 14px;
+  align-items: center;
+  justify-content: center;
+}/*# sourceMappingURL=style.css.map */
